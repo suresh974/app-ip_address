@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/suresh974/app-ip_address#readme",
   "dependencies": {
-    "ip-cidr": "^2.0.7"
+    "ip-cidr": "^2.0.8"
   }
 }
