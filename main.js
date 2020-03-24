@@ -49,7 +49,7 @@ class IpAddress {
   }
   let callbackError = null;
   //let ipv6Return = null;
-console.log("cidrStr******"+cidrStr);
+  
   // Instantiate an object from the imported class and assign the instance to variable cidr.
   const cidr = new IPCIDR(cidrStr);
 
@@ -63,7 +63,7 @@ console.log("cidrStr******"+cidrStr);
   };
 
 
-    console.log("cidr******"+cidr);
+   
   // Use the object's isValid() method to verify the pass:Qed CIDR.
   if (!cidr.isValid()) {
     // If the passed CIDR is invalid, set an error message.
